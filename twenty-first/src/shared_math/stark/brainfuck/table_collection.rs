@@ -6,7 +6,7 @@ use super::stark::{EXTENSION_CHALLENGE_COUNT, PERMUTATION_ARGUMENTS_COUNT, TERMI
 use super::table::TableTrait;
 use super::vm::{InstructionMatrixBaseRow, Register};
 use crate::shared_math::b_field_element::BFieldElement;
-use crate::shared_math::fri::FriDomain;
+use crate::shared_math::fri::fri_blake3::FriDomain;
 use crate::shared_math::mpolynomial::Degree;
 use crate::shared_math::x_field_element::XFieldElement;
 use itertools::Itertools;

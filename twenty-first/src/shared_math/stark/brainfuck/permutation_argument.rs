@@ -1,5 +1,5 @@
 use crate::shared_math::b_field_element::BFieldElement;
-use crate::shared_math::fri::FriDomain;
+use crate::shared_math::fri::fri_blake3::FriDomain;
 use crate::shared_math::mpolynomial::Degree;
 use crate::shared_math::traits::PrimeField;
 use crate::shared_math::x_field_element::XFieldElement;

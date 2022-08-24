@@ -1,4 +1,4 @@
-use crate::shared_math::fri::Fri;
+use crate::shared_math::fri::fri_blake3::Fri;
 use crate::shared_math::mpolynomial::MPolynomial;
 use crate::shared_math::other::log_2_ceil;
 use crate::shared_math::prime_field_element_flexible::PrimeFieldElementFlexible;

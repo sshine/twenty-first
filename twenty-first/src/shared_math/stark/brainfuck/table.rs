@@ -1,6 +1,6 @@
 use super::stark::{EXTENSION_CHALLENGE_COUNT, PERMUTATION_ARGUMENTS_COUNT, TERMINAL_COUNT};
 use crate::shared_math::b_field_element::BFieldElement;
-use crate::shared_math::fri::FriDomain;
+use crate::shared_math::fri::fri_blake3::FriDomain;
 use crate::shared_math::mpolynomial::Degree;
 use crate::shared_math::mpolynomial::MPolynomial;
 use crate::shared_math::other;

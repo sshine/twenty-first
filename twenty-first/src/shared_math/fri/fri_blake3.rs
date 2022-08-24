@@ -1,13 +1,13 @@
 use itertools::Itertools;
 use rayon::prelude::{IntoParallelIterator, IntoParallelRefIterator, ParallelIterator};
 
-use super::b_field_element::BFieldElement;
-use super::other::{log_2_ceil, log_2_floor};
-use super::polynomial::Polynomial;
-use super::traits::ModPowU32;
-use super::x_field_element::XFieldElement;
+use crate::shared_math::b_field_element::BFieldElement;
 use crate::shared_math::ntt::{intt, ntt};
+use crate::shared_math::other::{log_2_ceil, log_2_floor};
+use crate::shared_math::polynomial::Polynomial;
+use crate::shared_math::traits::ModPowU32;
 use crate::shared_math::traits::{IdentityValues, PrimeField};
+use crate::shared_math::x_field_element::XFieldElement;
 use crate::util_types::merkle_tree::{MerkleTree, PartialAuthenticationPath};
 use crate::util_types::proof_stream::ProofStream;
 use crate::util_types::simple_hasher::{Hasher, ToDigest};

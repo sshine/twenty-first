@@ -1,6 +1,6 @@
 use super::stark_constraints::BoundaryConstraint;
 use crate::shared_math::b_field_element::BFieldElement;
-use crate::shared_math::fri::Fri;
+use crate::shared_math::fri::fri_blake3::Fri;
 use crate::shared_math::mpolynomial::MPolynomial;
 use crate::shared_math::ntt::intt;
 use crate::shared_math::other::log_2_ceil;

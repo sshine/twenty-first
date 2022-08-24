@@ -14,7 +14,7 @@ use crate::shared_math::stark::brainfuck::{table, vm};
 use crate::shared_math::stark::stark_verify_error::StarkVerifyError;
 use crate::shared_math::traits::{FromVecu8, GetRandomElements, Inverse, ModPowU32};
 use crate::shared_math::{
-    b_field_element::BFieldElement, fri::Fri, other::is_power_of_two,
+    b_field_element::BFieldElement, fri::fri_blake3::Fri, other::is_power_of_two,
     stark::brainfuck::processor_table::ProcessorTable, traits::GetPrimitiveRootOfUnity,
     x_field_element::XFieldElement,
 };
